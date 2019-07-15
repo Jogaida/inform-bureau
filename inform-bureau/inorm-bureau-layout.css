@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.hidden {
+    display:none;
+}
+.unvisible {
+    visibility: hidden;
+}
+.text-shadow {
+    text-shadow: 0 0 5px white;
+}
+
+
+
+
+.nav-block {
+    position:absolute;
+    background-color: rgb(60,0,100);
+    color:darkgoldenrod;
+    left:8px;
+    top:55px;
+    min-width: 150px;
+     border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.nav-list {
+    display: none;
+    position: relative;
+    top:0;
+    font-family: "Agency FB";
+     text-align: center;
+}
+
+.nav-item {
+    padding:10px 0 0;
+    font-size: 19px;
+    color:whitesmoke;
+    text-decoration:none;
+    display: block;
+    transition: transform 200ms, filter 200ms;
+     
+}
+.nav-item-arrow {
+    position:relative;
+    width:0px;
+    height: 0px;
+    padding:0;
+    margin:10px 55px;
+    border: 20px solid darkgoldenrod;
+    border-top: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transition: transform 200ms, filter 200ms;
+    cursor:pointer;
+}
+.nav-item-arrow:hover, .nav-item-arrow:active .nav-item-arrow:focus, 
+.nav-item:hover, .nav-item:active, .nav-item:focus,
+.head-button:hover, .head-button:active, .head-button:focus {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+
+
+.hide-sidebar-block {
+    position:absolute;
+    background-color: rgb(60,0,100);
+    color:darkgoldenrod;
+    right:8px;
+    top:58px;
+    min-width: 150px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+
+.head-button {
+    font-family: "Agency FB", monospace;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 200ms, filter 200ms;
+    padding-bottom: 5px;
+}
+.drop-menu-block {
+    position:absolute;
+    top:54px;
+    left:155px;
+    background-color: rgb(60,0,100);
+    color: darkgoldenrod;
+    min-width: 600px;
+    min-height: 30px;
+     border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.drop-menu {
+    position: absolute;
+    color: darkgoldenrod;
+    min-width: 150px;
+     border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    text-decoration: none;
+}
+.drop-menu1 {left:0px;}
+.drop-menu2 {left:150px;}
+.drop-menu3 {left:300px;}
+.drop-menu4 {left:450px;}
