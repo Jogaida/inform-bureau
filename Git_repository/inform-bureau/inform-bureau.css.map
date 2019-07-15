@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,CAAC;EACG,KAAK,EAFG,OAAO;EAGf,YAAY,EAHJ,OAAO",
+"sources": ["inf-colors.sass"],
+"names": [],
+"file": "inform-bureau.css"
+}
